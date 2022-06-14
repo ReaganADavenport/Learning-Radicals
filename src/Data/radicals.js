@@ -38,3 +38,5 @@ const radical = {
 
     ]
 }
+
+export default radical;
