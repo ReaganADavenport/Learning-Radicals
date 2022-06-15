@@ -1,8 +1,8 @@
 import React from 'react';
-import './radical.css';
+import './lesson1.css';
 
 import Card from '../Card/card';
-import radical from '../../Data/radicals';
+import lesson1 from '../../Data/data1';
 
 
 const Radical = ({handleClick}) => {
@@ -12,7 +12,7 @@ const Radical = ({handleClick}) => {
         <h2>Lesson 1 Radicals</h2>
         <div className='board'>
 
-          {radical.radicalData.map((item, index) => {
+          {lesson1.lesson1Data.map((item, index) => {
               return(
                 <Card 
                   
