@@ -5,7 +5,7 @@ import Card from '../Card/card';
 import lesson1 from '../../Data/data1';
 
 
-const Radical = ({handleClick}) => {
+const Lesson1 = ({handleClick}) => {
 
     return(
         <div className='radical'>
@@ -31,4 +31,4 @@ const Radical = ({handleClick}) => {
     )
 }
 
-export default Radical;
+export default Lesson1;

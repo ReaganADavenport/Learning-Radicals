@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import Radical from "./Components/Radicals/radical";
+import Lesson1 from './Components/Lesson1/lesson1';
 
 function App() {
   return (
     <div className="App">
-      <Radical></Radical>
+      <Lesson1></Lesson1>
     </div>
   );
 }
