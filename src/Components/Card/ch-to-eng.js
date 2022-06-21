@@ -1,14 +1,16 @@
-import React,{Component} from 'react';
+import React,{Component, useState} from 'react';
 import ReactCardFlip from 'react-card-flip';
 import './card.css';
 
 
 
 class ChToEng_Card extends Component {
+
     constructor() {
         super();
           this.state = {
-          isFlipped: false
+          isFlipped: false,
+        //   guess: ''
         };
         this.handleClick = this.handleClick.bind(this);
     }
@@ -28,6 +30,12 @@ class ChToEng_Card extends Component {
         <div className='Card'>
          <div className='front'>
             <h1>{itemChinese}</h1>
+            <input
+                type="text"
+                className='guess-box'
+                placeholder='Guess...'
+                // value={this.guess}
+            ></input>
           <button className='button' onClick={this.handleClick}>Click to flip</button>
             </div>
         </div>
@@ -37,6 +45,8 @@ class ChToEng_Card extends Component {
             <h1>{itemPinyin}</h1>
 
             <h1>{itemEnglish}</h1>
+
+            {/* <h3>Your guess: {guess}</h3> */}
             <button className='button' onClick={this.handleClick}>Click to flip</button>
             </div>
         </div>

@@ -9,7 +9,7 @@ const Lesson1_Ch_Eng = ({handleClick}) => {
 
     return(
         <div className='radical'>
-        <h2>Lesson 1 Radicals</h2>
+        <h2>Lesson 1 Radicals - Chinese to English</h2>
         <div className='board'>
 
           {lesson1.lesson1Data.map((item, index) => {
