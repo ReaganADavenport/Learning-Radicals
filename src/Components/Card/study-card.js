@@ -3,7 +3,7 @@ import './card.css';
 
 
 
-class Card extends Component {
+class Study_Card extends Component {
   render(){
     const { itemChinese, itemPinyin, itemEnglish} = this.props;
     
@@ -22,4 +22,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default Study_Card;
