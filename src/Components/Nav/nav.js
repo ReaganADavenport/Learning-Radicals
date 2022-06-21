@@ -1,13 +1,13 @@
 import React from 'react';
 import './nav.css'
 
-// import logo from '../../Images/logo.png'
+import logo from "../../Assets/logo.png"
 
 const Nav = () => {
     return(
         <div className='Nav'>
             <div className='Logo'>
-                {/* <a href='/'><img src={logo}></img></a> */}
+                <a href='/'><img src={logo}></img></a>
             </div>
             <div className='Links'>
                 <a href='/lesson1'> <p>Lesson 1</p> </a>
