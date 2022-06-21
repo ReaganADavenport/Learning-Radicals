@@ -1,11 +1,11 @@
 import React from 'react';
 import './lesson1.css';
 
-import Card from '../Card/card';
+import ChToEng_Card from '../Card/ch-to-eng';
 import lesson1 from '../../Data/data1';
 
 
-const Lesson1 = ({handleClick}) => {
+const Lesson1_Ch_Eng = ({handleClick}) => {
 
     return(
         <div className='radical'>
@@ -14,15 +14,14 @@ const Lesson1 = ({handleClick}) => {
 
           {lesson1.lesson1Data.map((item, index) => {
               return(
-                <Card 
-                  
+                <ChToEng_Card 
                   itemChinese={item.chinese} 
                   itemPinyin={item.pinyin} 
                   itemEnglish={item.english}
                   item={item} 
                   key={index} 
                   handleClick={handleClick}>
-                </Card>
+                </ChToEng_Card>
               )
           })}
         </div>
@@ -31,4 +30,4 @@ const Lesson1 = ({handleClick}) => {
     )
 }
 
-export default Lesson1;
+export default Lesson1_Ch_Eng;

@@ -12,3 +12,13 @@
     padding: 5px;
     width: 250px;
 }
+
+.button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    height: 50px;
+    background-color: #ee3424;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
