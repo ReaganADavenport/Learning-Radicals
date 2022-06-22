@@ -6,23 +6,37 @@ import './card.css';
 
 class ChToEng_Card extends Component {
 
-    constructor() {
-        super();
-          this.state = {
+          state = {
+          guess: '',
           isFlipped: false,
-        //   guess: ''
+          showAnswer: false
         };
-        this.handleClick = this.handleClick.bind(this);
-    }
+        handleClick = this.handleClick.bind(this);
+      
+        changeGuess = guess => {
+          const lowerCaseInput = guess.toLowerCase();
+      
+          this.setState({guess: lowerCaseInput});
+      };
+
+
+      displayAnswer = () => {
+          this.setState({
+            showAnswer: true
+        })
+      };
 
     handleClick(e) {
         e.preventDefault();
-        this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
+        this.setState(prevState => ({ isFlipped: !prevState.isFlipped, showAnswer: !prevState.showAnswer }));
       }
+
+      
     
 
   render(){
     const { itemChinese, itemPinyin, itemEnglish} = this.props;
+    const { showAnswer, guess } = this.state;
     
     return(
         
@@ -33,8 +47,8 @@ class ChToEng_Card extends Component {
             <input
                 type="text"
                 className='guess-box'
-                placeholder='Guess...'
-                // value={this.guess}
+                value={guess}
+                onChange={e => this.changeGuess(e.target.value)}
             ></input>
           <button className='button' onClick={this.handleClick}>Click to flip</button>
             </div>
@@ -42,11 +56,19 @@ class ChToEng_Card extends Component {
 
         <div className='Card'>
             <div className='back'>
-            <h1>{itemPinyin}</h1>
-
-            <h1>{itemEnglish}</h1>
-
-            {/* <h3>Your guess: {guess}</h3> */}
+            {!!showAnswer ?
+              <>
+                <h1>{itemEnglish}</h1>
+                {guess === itemEnglish ?
+                <span>✅</span>
+                :
+                <span>❌</span>
+              }
+              </>
+              :
+              null
+            }
+            <h3>Your answer: {guess}</h3>
             <button className='button' onClick={this.handleClick}>Click to flip</button>
             </div>
         </div>
