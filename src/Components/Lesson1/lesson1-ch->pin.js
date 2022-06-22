@@ -1,7 +1,7 @@
 import React from 'react';
 import './lesson1.css';
 
-import ChToPin_Card from '../Card/ch-to-eng';
+import ChToPin_Card from '../Card/ch-to-pin';
 import lesson1 from '../../Data/data1';
 
 
