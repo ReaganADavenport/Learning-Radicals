@@ -3,6 +3,7 @@ import './lesson1.css';
 
 import ChToPin_Card from '../Card/ch-to-pin';
 import lesson1 from '../../Data/data1';
+import arrow_right from '../../Assets/arrow-right.png'
 
 
 const Lesson1_Ch_Pin = ({handleClick}) => {
@@ -24,6 +25,10 @@ const Lesson1_Ch_Pin = ({handleClick}) => {
                 </ChToPin_Card>
               )
           })}
+          <div className='Next'>
+            <h2>Lesson 1 - English to Chinese</h2>
+            <a href='/lesson1/eng-to-ch'> <img src={arrow_right} className="arrow"></img> </a>
+          </div>
         </div>
 
       </div>

@@ -3,6 +3,7 @@ import './lesson1.css';
 
 import Study_Card from '../Card/study-card';
 import lesson1 from '../../Data/data1';
+import arrow from '../../Assets/arrow-right.png';
 
 
 const Lesson1 = ({handleClick}) => {
@@ -24,6 +25,11 @@ const Lesson1 = ({handleClick}) => {
                 </Study_Card>
               )
           })}
+          <div className='Next'>
+            <h2>Lesson 1 - Chinese to English</h2>
+            <a href='/lesson1/ch-to-eng'> <img src={arrow} className="arrow"></img> </a>
+          </div>
+          
         </div>
 
       </div>
