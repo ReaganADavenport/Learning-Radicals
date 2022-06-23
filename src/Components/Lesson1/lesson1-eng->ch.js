@@ -26,8 +26,8 @@ const Lesson1_Eng_Ch = ({handleClick}) => {
               )
           })}
            <div className='Next'>
-            <h2>Lesson 1 - Study</h2>
-            <a href='/lesson1/study'> <img src={arrow_left} className="arrow"></img> </a>
+            <h2>Lesson 1 - Chinese to Pinyin</h2>
+            <a href='/lesson1/ch-to-pin'> <img src={arrow_left} className="arrow"></img> </a>
           </div>
         </div>
 
