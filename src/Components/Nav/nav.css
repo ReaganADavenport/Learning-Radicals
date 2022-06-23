@@ -4,7 +4,7 @@
     backdrop-filter: blur(5px);
     border: solid 2px transparent;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.3);
-    color: #4e706f;
+    color: #b0452a;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -16,23 +16,23 @@
 }
 
 .Links{
-    color: #2f4343;
+    color: #703c2b;
     display: flex;
     flex-direction: row;
     margin-right: 3px;
 }
 
 .Links p{
-    color: #2f4343;
+    color: #703c2b;
     margin: 5px;
 }
 
 .Links a{
-    color: #2f4343;
+    color: #703c2b;
     text-decoration: none;
 }
 
 .Links p:hover{
-    color: #658277;
+    color: #b0452a;
     text-decoration: underline;
 }
