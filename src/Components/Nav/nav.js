@@ -11,7 +11,7 @@ const Nav = () => {
             </div>
             <div className='Links'>
                 <a href='/lesson1/study'> <p>Lesson 1</p> </a>
-                <a href=''><p>Lesson 2</p></a>
+                <a href='/lesson2/study'><p>Lesson 2</p></a>
                 <a href=''><p>Lesson 3</p></a>
                 <a href=''><p>Lesson 4</p></a>
             </div>
