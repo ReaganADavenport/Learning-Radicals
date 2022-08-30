@@ -1,4 +1,4 @@
-import React,{Component, useState} from 'react';
+import React,{Component} from 'react';
 import ReactCardFlip from 'react-card-flip';
 import './card.css';
 
