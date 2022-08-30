@@ -2,7 +2,7 @@ import React from 'react';
 import './lesson2.css';
 
 import Study_Card from '../Card/study-card';
-import lesson2 from '../../Data/data1';
+import lesson2 from '../../Data/data2';
 import arrow from '../../Assets/arrow-right.png';
 
 
