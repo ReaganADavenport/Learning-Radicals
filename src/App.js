@@ -12,6 +12,8 @@ import Lesson1_Eng_Ch from './Components/Lesson1/lesson1-eng->ch';
 
 import Lesson2 from './Components/Lesson2/lesson2-study';
 import Lesson2_Ch_Eng from './Components/Lesson2/lesson2-ch->eng';
+import Lesson2_Ch_Pin from './Components/Lesson2/lesson2-ch->pin';
+import Lesson2_Eng_Ch from './Components/Lesson2/lesson2-eng->ch';
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
 
           <Route path="/lesson2/study" element={<Lesson2></Lesson2>}></Route>
           <Route path="/lesson2/ch-to-eng" element={<Lesson2_Ch_Eng></Lesson2_Ch_Eng>}></Route>
+          <Route path="/lesson2/ch-to-pin" element={<Lesson2_Ch_Pin></Lesson2_Ch_Pin>}></Route>
+          <Route path="/lesson2/eng-to-ch" element={<Lesson2_Eng_Ch></Lesson2_Eng_Ch>}></Route>
         </Routes>
       </Router>
       
