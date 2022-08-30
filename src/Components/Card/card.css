@@ -9,6 +9,7 @@
     flex-direction: column;
     height: 300px;
     margin: 5px;
+    margin-left: 40px;
     padding: 5px;
     width: 250px;
 }
