@@ -13,7 +13,7 @@ Here are some screenshots of the app:
 <img src="/images/review.png" alt="review page">
 <img src="/images/chinese-to-english.png" alt="Chinese to English page">
 <img src="/images/chinese-to-pinyin.png" alt="Chinese to Pinyin page">
-<img src="/images/english-to-pinyin.png" alt="English to Chinese page">
+<img src="/images/english-to-chinese.png" alt="English to Chinese page">
 
 # Getting Started with Create React App
 
