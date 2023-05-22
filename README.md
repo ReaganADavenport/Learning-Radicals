@@ -1,3 +1,20 @@
+# Learning Radicals
+
+This project is a sequel to Learning Mandarin, meant to improve my UI design, and to make flashcards that show you what you wrote initially and why it is wrong.
+
+Only flashcards as of yet. I will eventually get to making a canvas portion to practice writing the characters, but not now.
+
+Here is a link to an article I wrote about making the flashcards: https://medium.com/dev-genius/how-to-make-flashcards-15da8ee0944c
+
+Here is also a demo video: https://www.youtube.com/watch?v=vJXXCwyScaw
+
+Here are some screenshots of the app:
+
+<img src="/images/review.png" alt="review page">
+<img src="/images/chinese-to-english.png" alt="Chinese to English page">
+<img src="/images/chinese-to-pinyin.png" alt="Chinese to Pinyin page">
+<img src="/images/english-to-pinyin.png" alt="English to Chinese page">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
